@@ -36,7 +36,6 @@
   
 **Problem**
 - Save all of the new values to the server
-
 **Checklist**
 - [ ] Make a new "users" object that is made up of a subset of all the users:
   - [ ] user_id.last_modified: today()
