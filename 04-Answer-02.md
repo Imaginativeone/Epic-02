@@ -5,6 +5,8 @@
 **Checklist**
 - [ ] In then block make a conditional statement:
   - [ ] Assign id to user_id, I'll need this for related objects
+  - [ ] Map through the users, 
+    - [ ] looking at user_id.state in particular
   - [ ] If the user_id's state is PA, then move on.
   - [ ] If the user_id's state isn't PA, then updateUsers.users.id.state: "PA"
   - [ ] Return the results of saving this to the server (consider saving this 'til the end)
@@ -15,4 +17,8 @@
 - Some users hobby records are missing experience level
 
 **Checklist**
-- [ ] Filter hobbies where the hobbies' user_id = the users' user_id
+- [ ] Map through the hobbies, sorted by user_id
+  - [ ] For each hobby, if experience_level is missing
+    - [ ] If years_played = 1, then experience_level = 'beginner'
+    - [ ] If years_played = 2, then experience_level = 'advanced'
+    - [ ] If years_played = 3, then experience_level = 'expert'
