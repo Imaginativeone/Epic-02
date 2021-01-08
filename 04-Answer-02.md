@@ -35,18 +35,17 @@
   - [ ] favorites.last_modified: Date()
   
 **Problem**
-- Update the server with new values
+- Save all of the new values to the server
 
 **Checklist**
-- [ ] Map through the users
-  - [ ] If user_id.last_modified: Now() then:
-    - [ ] Place user into update array
+- [ ] UPDATE the entire (corrected) users object to the server
 
 **Problem**
 - Error Checking
 
 **Checklist**
-- [ ] Check for errors
+- [ ] In fetch then block, display succcess message
+- [ ] In catch block, display error message
 
 **Problem**
 - Print out all data for each user in order
