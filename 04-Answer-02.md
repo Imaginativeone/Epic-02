@@ -6,7 +6,8 @@
   - [ ] Assign id to user_id, I'll need this for related objects
   - [ ] Map through the users, 
     - [ ] looking at user_id.state in particular
-  - [ ] If the user_id's state isn't "PA", then updateUsers.user_id.state: "PA"
+  - [ ] If the user_id's state isn't "PA", then user_id.state: "PA"
+  - [ ] user_id.last_modified: Date()
   - [ ] Return the results of saving this to the server (consider saving this 'til the end)
   - [ ] In next then block, display success message
   - [ ] In catch block, display error message
@@ -37,4 +38,12 @@
 - Update the server with new values
 
 **Checklist**
-- [ ] A
+- [ ] Map through the users
+  - [ ] If user_id.last_modified: Now() then:
+    - [ ] Place user into update array
+    
+**Problem**
+- Print out all data for each user in order
+
+**Checklist**
+- A
