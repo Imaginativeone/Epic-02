@@ -20,4 +20,5 @@
     - [ ] If years_played = 1, then experience_level = 'beginner'
     - [ ] If years_played = 2, then experience_level = 'advanced'
     - [ ] If years_played = 3, then experience_level = 'expert'
-- UPDATE hobbies.user_id.experience_level: experience_level
+  - [ ] UPDATE hobbies.user_id.experience_level: experience_level
+
