@@ -2,7 +2,7 @@
 - Some users have the incorrect state (users array from server)(should be "PA")
 
 **Checklist**
-- [ ] In then block make a conditional statement:
+- [ ] In then block make a conditional statement
   - [ ] Assign id to user_id, I'll need this for related objects
   - [ ] Map through the users, 
     - [ ] looking at user_id.state in particular
@@ -37,15 +37,15 @@
 **Problem**
 - Save all of the new values to the server
 **Checklist**
-- [ ] Make a new "users" object that is made up of a subset of all the users:
+- [ ] Make a new "users" object that is made up of a subset of all the users
   - [ ] user_id.last_modified: today()
     - [ ] user_id.state
 
-- [ ] Make a new "hobbies" object that is made up of a subset of all the hobbies:
+- [ ] Make a new "hobbies" object that is made up of a subset of all the hobbies
   - [ ] hobbies.last_modified: today()
     - [ ] hobbies.experience_level: experience_level
 
-- [ ] Make a new "favorites" object that is made up of a subset of all the favorites:
+- [ ] Make a new "favorites" object that is made up of a subset of all the favorites
   - [ ] favorites.last_modified: today()
     - [ ] favorites.type: "other"
 
