@@ -44,7 +44,11 @@
 - Error Checking
 
 **Checklist**
-- [ ] In fetch then block, display succcess message
+- [ ] In fetch then block, display success message
+  - [ ] Upon success, map through the users
+    - [ ] For each user_id, console.log user_id.state and user_id.last_modified
+    - [ ] For each hobby,     where user_id = hobbies.user_id,   console.log hobbies.user_id.experience_level   and hobbies.user_id.last_modified
+    - [ ] For each favorites, where user_id = favorites.user_id, console.log favorites.user_id.experience_level and favorites.user_id.last_modified
 - [ ] In catch block, display error message
 
 **Problem**
