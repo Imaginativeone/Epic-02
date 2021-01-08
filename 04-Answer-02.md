@@ -41,9 +41,15 @@
 - [ ] Map through the users
   - [ ] If user_id.last_modified: Now() then:
     - [ ] Place user into update array
-    
+
+**Problem**
+- Error Checking
+
+**Checklist**
+- [ ] Check for errors
+
 **Problem**
 - Print out all data for each user in order
 
 **Checklist**
-- A
+- [ ] Print
