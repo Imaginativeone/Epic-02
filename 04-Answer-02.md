@@ -38,15 +38,34 @@
 - Save all of the new values to the server
 
 **Checklist**
-- [ ] UPDATE the entire (corrected) users object to the server
+- [ ] Make a new "users" object that is made up of a subset of all the users:
+  - [ ] user_id.last_modified: today()
+    - [ ] user_id.state
+
+- [ ] Make a new "hobbies" object that is made up of a subset of all the hobbies:
+  - [ ] hobbies.last_modified: today()
+    - [ ] hobbies.experience_level: experience_level
+
+- [ ] Make a new "favorites" object that is made up of a subset of all the favorites:
+  - [ ] favorites.last_modified: today()
+    - [ ] favorites.type: "other"
+
+- [ ] UPDATE these corrected objects to the server
 
 **Problem**
 - Error Checking
 
 **Checklist**
+   
 - [ ] In fetch then block, display success message
   - [ ] Upon success, map through the users
+  
+     **Problem**
+     - Print Reports
+
+    **Checklist**
     - [ ] For each user_id, console.log user_id.state and user_id.last_modified
     - [ ] For each hobby,     where user_id = hobbies.user_id,   console.log hobbies
     - [ ] For each favorites, where user_id = favorites.user_id, console.log favorites
+
 - [ ] In catch block, display error message
