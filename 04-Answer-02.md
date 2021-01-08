@@ -16,9 +16,19 @@
 
 **Checklist**
 - [ ] Map through the hobbies, sorted by user_id
-  - [ ] For each hobby, if experience_level is missing
+  - [ ] For each hobby, if "experience_level" is missing
     - [ ] If years_played = 1, then experience_level = 'beginner'
     - [ ] If years_played = 2, then experience_level = 'advanced'
     - [ ] If years_played = 3, then experience_level = 'expert'
-  - [ ] UPDATE hobbies.user_id.experience_level: experience_level
+  - [ ] hobbies.user_id.experience_level: experience_level
+  - [ ] last_modified: Date()
+  
 
+**Problem**
+- Some favorites are missing types. If missing, this should be set to "other".
+
+**Checklist**
+- [ ] Map through the favorites, sorted by the user_id
+  - [ ] For each favorite, if "type" is missing:
+  - [ ] favorites.user_id.experience_level: "other"
+  - [ ] last_modified: Date()
