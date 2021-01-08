@@ -21,7 +21,7 @@
     - [ ] If years_played = 2, then experience_level = 'advanced'
     - [ ] If years_played = 3, then experience_level = 'expert'
   - [ ] hobbies.user_id.experience_level: experience_level
-  - [ ] last_modified: Date()
+  - [ ] hobbies.last_modified: Date()
   
 
 **Problem**
@@ -31,4 +31,10 @@
 - [ ] Map through the favorites, sorted by the user_id
   - [ ] For each favorite, if "type" is missing:
   - [ ] favorites.user_id.experience_level: "other"
-  - [ ] last_modified: Date()
+  - [ ] favorites.last_modified: Date()
+  
+**Problem**
+- Update the server with new values
+
+**Checklist**
+- [ ] A
